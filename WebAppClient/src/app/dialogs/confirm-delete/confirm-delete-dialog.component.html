@@ -1,0 +1,20 @@
+<mat-card>
+    <mat-card-title>
+        Confirm Delete
+    </mat-card-title>
+    <mat-card-content>
+        Are you sure you would like to delete this student?
+    </mat-card-content>
+    <mat-card-actions align="end">
+        <button mat-button
+                color   = "warn"
+                (click) = "dialogRef.close(false)">
+            No
+        </button>
+        <button mat-button
+                color   = "primary"
+                (click) = "close()">
+            Yes
+        </button>
+    </mat-card-actions>
+</mat-card>
